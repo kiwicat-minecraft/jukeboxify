@@ -3,10 +3,10 @@
   "id": "jukeboxify",
   "version": "${version}",
   "name": "Jukeboxify",
-  "description": "",
-  "authors": [],
+  "description": "Makes every Block into a Jukebox",
+  "authors": ["Kiwicat0_0"],
   "contact": {
-    "repo": "https://github.com/kiwi/Jukeboxify"
+    "repo": "https://github.com/kiwicat-minecraft/jukeboxify/"
   },
   "license": "MIT",
   "icon": "assets/jukeboxify/icon.png",
