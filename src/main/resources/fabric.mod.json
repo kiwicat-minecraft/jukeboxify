@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "jukeboxify",
+  "version": "${version}",
+  "name": "Jukeboxify",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kiwi/Jukeboxify"
+  },
+  "license": "MIT",
+  "icon": "assets/jukeboxify/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cat.kiwicat.jukeboxify.client.JukeboxifyClient"
+    ],
+    "main": [
+      "cat.kiwicat.jukeboxify.Jukeboxify"
+    ],
+    "fabric-datagen": [
+      "cat.kiwicat.jukeboxify.client.JukeboxifyDataGenerator"
+    ]
+  },
+  "mixins": [
+    "jukeboxify.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
